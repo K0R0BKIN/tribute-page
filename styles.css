@@ -1,0 +1,69 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+body {
+  font-family: Lato;
+  text-align: center;
+  min-width: 240px;
+}
+
+header p {
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+main {
+  max-width: 480px;
+  margin: auto;
+}
+
+#image {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+figcaption {
+  font-style: italic;
+  font-family: sans;
+}
+
+#tribute-info {
+  margin: 5vw;
+}
+
+#tribute-info ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding-inline-start: 0;
+}
+
+#tribute-info li {
+  text-align: left;
+  list-style: none;
+}
+
+.year {
+  font-weight: bold;
+}
+
+#tribute-quote figure {
+  margin-bottom: 0;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+#tribute-message {
+  font-weight: 700;
+  padding: 2em 5em;
+  margin-top: 0;
+}
+
+#tribute-message a {
+  color:rgb(0, 0, 0);
+}
