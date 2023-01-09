@@ -1,8 +1,9 @@
-html, body {
-    height: 100%;
-    width: 100%;
-  }
-  
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   font-family: Lato;
   text-align: center;
@@ -65,5 +66,5 @@ blockquote {
 }
 
 #tribute-message a {
-  color:rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
